@@ -1,4 +1,4 @@
-# AWS Lambda container template for a PHP 8.3 environment, based on the official al2023 image.
+# AWS Lambda container template for a PHP 8.2 environment, based on the official al2023 image.
 ## This is a PoC at the moment, not recommended for production use in its current form.
 
 ### Overview
