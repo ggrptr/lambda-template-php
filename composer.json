@@ -1,0 +1,26 @@
+{
+    "name": "ggrptr/aws-lambda-php",
+    "description": "AWS PHP lambda with custom image",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "phpstan/phpstan": "^1.11.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ggrptr\\AwsLambdaPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter Geiger",
+            "email": "mail@geigerpeter.hu"
+        }
+    ],
+    "platform": {
+        "php": "8.2"
+    }
+}

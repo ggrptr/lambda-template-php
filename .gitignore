@@ -1,0 +1,14 @@
+# IDEA ide folder and project file
+.idea
+*.iml
+
+# VsCode ide folder
+.vscode/
+
+unit-test-results-junit.xml
+unit-test-results.html
+
+.terraform
+terraform.tfstate
+terraform.tfstate.*
+vendor

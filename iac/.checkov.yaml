@@ -1,0 +1,8 @@
+directory:
+  - .
+download-external-modules: true
+external-modules-download-path: /tmp/.external_modules
+framework:
+  - all
+quiet: true
+soft-fail: false
