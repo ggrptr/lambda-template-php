@@ -39,9 +39,8 @@ is running, and the response in the output of the caller target will be displaye
 
 If the AWS_LAMBDA_RUNTIME_API environment variable is not set, the container will run the
 [AWS Lambda Runtime Interface Emulator](https://github.com/aws/aws-lambda-runtime-interface-emulator).
-This emulator starts a lightweight HTTP server that listens for invocation requests from the AWS Lambda service 
-and invokes the function handler.
-So, in this environment, you can test the lambda function itself, without the bootstrap and polling logic.
+This emulator starts a lightweight HTTP server that listens for invocation requests and forwards them into the 
+request queue, so you can test bootstrap and polling logic and the lambda function itself.
 
 #### Upload, testing in  aws
 
